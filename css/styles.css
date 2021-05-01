@@ -1,0 +1,226 @@
+.dropbtn {
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fbfbff;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 15px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: #002e5b;
+}
+
+.dropdown-desktop{
+    display: none;
+}
+
+.previous-next{
+    color: #fde428;
+    padding: 0px 10px;
+    font-size: .9em;
+}
+.yellow-text-link a {
+    color: #fce428;
+    border-bottom: 2px solid #fce428;
+  }
+.show {
+  display: block;
+}
+.nav-list:hover{
+    color: #bdd6f1;
+}
+.second-left-heading{
+    /* text-align: center; */
+    color: #002e5b;
+    text-transform: uppercase;
+}
+.second-sec-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: #666666;
+    padding: 10px 0;
+}
+.second-third-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 24px;
+}
+
+.second-link{
+    font-family: "Montserrat";
+    color: #002e5b;
+    font-weight: bold;
+    border-bottom: 2px solid #002e5b;
+    text-transform: uppercase;
+    margin-top: 15px;
+    float: left;
+}
+.second-left {
+    text-align: left;
+  }
+.second-img {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%)
+
+}
+
+.third-btn{
+    border: none;
+    color: #002e5b;
+    font-weight: 600;
+    padding: 9px 12px;
+    background-color: #fde428;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.third-btn:hover{
+    /* background-color: #f7da00; */
+    box-shadow: 0 0 10px #fde428;
+}
+.third-container {
+  background-color: #f4f4f4;
+
+}
+
+.fourth-top-heading{
+    text-transform: uppercase;
+    color: #002e5b;
+}
+.fourth-text-title{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #002e5b;
+    text-align: center;
+    padding: 2% 0;
+    font-weight: 600;
+}
+.fourth-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+}
+.fourth-img {
+    box-shadow: 0 0 20px rgb(197, 197, 197);
+}
+.fifth-title{
+    font-weight: 500;
+    font-size: 2.5em;
+    letter-spacing: .2em;
+}
+.fifth-text{
+    letter-spacing: 1px;
+    padding-top: 4px;
+    font-weight: 400;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+.seventh-text{
+    text-align: center;
+    padding: 22px 0 40px 0;
+}
+.dash-icon{
+    padding: 0 8px 4px 8px;
+}
+.contactus-list{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin: 10px 0;
+    color: #002e5b;
+    font-size: 0.9em;
+    width: 100%;
+}
+.contactUs-bottom-content{
+    box-shadow: 0px 0px 20px rgb(223, 223, 223);
+}
+.dash-text{
+    text-transform: uppercase;
+}
+.yellow{
+    color: yellow
+  }
+  .map-text-title{
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #002e5b;
+    text-align: left;
+    padding: 2% 0;
+    font-weight: 700;
+  }
+
+@media screen and (min-width: 765px) {
+  .dropdown{
+      display: none;
+  }
+  .dropdown-desktop{
+      position: relative;
+      display: inline-block;
+  }
+  .third-footer-text{
+    display: block;
+    float: left;
+    color: white;
+    padding-top: 6px;
+    font-size: 1.1em;
+}
+.second-line{
+    width: 400px;
+}
+.second-img {
+    width: 400px;
+}
+
+
+}
+@media screen and (min-width: 1025px) {
+    .second-line {
+        position: relative;
+        width: 200px;
+        height: 100%;
+        background-color: #fde52c;
+        margin: 0 auto;
+      }
+      .second-left{
+        padding: 48px 0;
+    }
+    .second-left {
+        text-align: left;
+      }
+    .nav-list{
+        font-size: .9em;
+    }
+   
+    .fourth-text-title{
+        text-align: left;
+    }
+    .fourth-text{
+        text-align: left;
+    }
+    .sixth-right{
+        width: 50%;
+        float: right;
+        padding: 49px 0;
+    }
+}
