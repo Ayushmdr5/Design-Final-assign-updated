@@ -276,7 +276,7 @@
   }
 
 @media screen and (min-width: 765px) {
-  .right {
+  .nav__right {
     margin-top: 5px;
   }
   .desktop{
@@ -383,7 +383,7 @@
     padding: 0 20px;
   }
   .nav {
-    padding: 10px 0;
+    padding: 10px 0 0 0;
   }
   .carousel__content {
     padding: 190px 0;
