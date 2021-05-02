@@ -14,16 +14,16 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Counsel (refined)</title>
+    <title>Counsel (Refined)</title>
   </head>
   <body>
-    <div class="carousel-container">
-      <div class="carousel-content clearfix">
-        <div class="nav-container">
-          <div class="left">
-            <img src="image/logo-text.png" alt="text logo" />
+    <div class="carousel">
+      <div class="container clearfix">
+        <header class="nav clearfix">
+          <div class="nav__left">
+            <a href="#"><img src="image/logo-text.png" alt="text logo" /></a>
           </div>
-          <div class="right">
+          <nav class="nav__right">
             <div class="dropdown">
               <img
                 src="image/icons/white-menu-icon.jpg"
@@ -32,7 +32,6 @@
                 onclick="myFunction()"
                 width="50px"
               />
-              <!-- <button onclick="myFunction()" class="dropbtn">Dropdown</button> -->
               <div id="myDropdown" class="dropdown-content">
                 <a href="#">ABOUT</a>
                 <a href="#">SERVICES</a>
@@ -57,14 +56,14 @@
                 >
               </div>
             </div>
-            <div class="nav-desktop">
+            <div class="desktop clearfix">
               <ul>
-                <li class="nav-list">ABOUT</li>
-                <li class="nav-list">SERVICES</li>
-                <li class="nav-list">WHY WE BEST</li>
-                <li class="nav-list">TESTIMONIALS</li>
-                <li class="nav-list">CONTACT</li>
-                <li class="nav-list">
+                <li class="desktop__nav-list">ABOUT</li>
+                <li class="desktop__nav-list">SERVICES</li>
+                <li class="desktop__nav-list">WHY WE BEST</li>
+                <li class="desktop__nav-list">TESTIMONIALS</li>
+                <li class="desktop__nav-list">CONTACT</li>
+                <li class="desktop__nav-list">
                   <div class="dropdown-desktop">
                     <img
                       src="image/icons/britain.png"
@@ -101,16 +100,16 @@
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-        <div class="content-container">
-          <div class="content-right clearfix">
-            <div class="yellow-border-container clearfix">
-              <div class="yellow-text">
+          </nav>
+        </header>
+        <div class="carousel__content">
+          <div class="carousel__right clearfix">
+            <div class="carousel__yellow-border clearfix">
+              <div class="carousel__yellow-text">
                 <h2>Consumer Products Consulting</h2>
               </div>
-              <div class="yellow-text-link">
-                <a href="#">LEARN MORE</a>
+              <div class="carousel__yellow-text-link">
+                <a href="#" class="learnmore-link">LEARN MORE</a>
               </div>
               <img
                 src="image/yellow-border.png"
@@ -120,65 +119,88 @@
             </div>
           </div>
 
-          <div class="content-left">
+          <div class="carousel__left">
             <p>
-              <img src="image/icons/left-icon.png" alt="left icon" />
-              <a href="#" class="previous-next">PREVIOUS</a> /
-              <a href="#" class="previous-next">NEXT</a>
-              <img src="image/icons/right-icon.png" alt="right icon" />
+              <a href="#" class="carousel__previous"
+                ><img
+                  src="image/icons/left-icon.png"
+                  alt="left icon"
+                  class="left-icon"
+                />
+                <img
+                  src="image/icons/active-left-icon.png"
+                  alt="active left icon"
+                  class="active-left-icon"
+                />
+                PREVIOUS</a
+              >
+              /
+              <a href="#" class="carousel__next"
+                >NEXT
+                <img
+                  src="image/icons/right-icon.png"
+                  alt="right icon"
+                  class="right-icon"
+                />
+                <img
+                  src="image/icons/active-right-icon.png"
+                  alt="right icon"
+                  class="active-right-icon"
+                />
+              </a>
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="second-container">
-      <div class="second-content clearfix">
-        <div class="second-right">
-          <div class="second-line">
+    <section class="second__container">
+      <div class="second__content clearfix">
+        <div class="second__right">
+          <div class="second__line">
             <img
               src="image/seconds.jpg"
               alt="architecture image"
-              class="second-img"
+              class="second__img"
             />
           </div>
         </div>
-        <div class="second-left">
-          <h2 class="second-left-heading">
+        <article class="second__left">
+          <h2 class="left-heading">
             Take away the risk & you can do anything.
           </h2>
-          <p class="second-sec-text">
+          <p class="sec-text">
             Rapid solutions to the most complex business challenges with
             cooperative process-driven.
           </p>
-          <p class="second-third-text">
+          <p class="third-text">
             Integer blandit ultricies aliquam. Pellentesque quis dui varius,
             dapibus velit id, iaculis ipsum. Morbi ac eros feugiat, lacinia elit
             ut, elem turpis.Curabitur justo sapien, tempus sit amet rutrum eu,
             commodo eu lacus. Morbi in ligula nibh. Maecenas ut mi at odio
-            hendrerit eleifend tempor. justo sapien, tempus sit amet rutrum eu,
+            tempor. justo sapien, tempus sit amet rutrum eu,
             commodo eu lacus. Morbi in ligula nibh. Maecenas ut mi at odio
             hendrerit eleifend tempor.
           </p>
-          <a href="#" class="second-link">Take a tour</a>
-        </div>
+          <a href="#" class="link">Take a tour</a>
+        </article>
       </div>
-    </div>
+    </section>
 
-    <div class="third-container">
-      <div class="third-content clearfix">
-        <div class="third-img-container">
-          <img src="image/graph.png" alt="graph" class="third-img" />
+    <section class="third__container">
+      <div class="third__content clearfix">
+        <div class="third__img-container">
+          <img src="image/graph2.png" alt="graph" class="third__img" />
         </div>
-        <div class="third-textArea">
-          <h2 class="second-left-heading">
-            Constructingthe best in class global assets.
+        <article class="third__textArea">
+          <h2 class="left-heading">
+            Constructing the best in class global assets.
           </h2>
-          <p class="second-sec-text">
+          <p class="sec-text">
             Rapid solutions to the most complex business challenges with
             cooperative process-driven.
           </p>
-          <p class="second-third-text">
+          <p class="third-text">
             Integer blandit ultricies aliquam. Pellentesque quis dui varius,
             dapibus velit id, iaculis ipsum. Morbi ac eros feugiat, lacinia elit
             ut, elementum turpis.Curabitur justo sapien, tempus sit amet rutrum
@@ -193,130 +215,131 @@
             odio hendrerit eleifend tempor.Integer blandit ultricies Morbi in
             ligula nibh.
           </p>
-          <a href="#" class="second-link">Take a tour</a>
-        </div>
+          <a href="#" class="link">Take a tour</a>
+        </article>
       </div>
-      <div class="third-footer-container clearfix">
-        <div class="third-footer-content">
-          <span class="third-footer-text">
+      <div class="third__footer-container clearfix">
+        <div class="third__footer-content">
+          <span class="third__footer-text">
             Looking for a nice First-Class Business Plan Consultant?
           </span>
-          <button class="third-btn">CONTACT NOW</button>
+          <button class="third__btn">CONTACT NOW</button>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="fourth-container">
-      <div class="fourth-content">
-        <div class="fourth-top-container">
-          <h2 class="second-left-heading">Popular Services</h2>
-          <p class="second-sec-text">
+    <section class="popular-services">
+      <div class="popular-services__content">
+        <div class="popular-services__top">
+          <h2 class="left-heading">Popular Services</h2>
+          <p class="sec-text">
             Rapid solutions to the most complex business challenges with
             cooperative process-driven.
           </p>
         </div>
-        <div class="fourth-bottom-container clearfix">
-          <div class="fourth-bottom-content">
-            <div class="image-content">
+        <div class="popular-services__bottom clearfix">
+          <article class="popular-services__bottom-content">
+            <figure class="popular-services__image-content">
               <img
                 src="image/second.jpg"
                 alt="architecture image"
                 class="fourth-img"
               />
-            </div>
-            <div class="fourth-text-content">
-              <p class="fourth-text-title">Turnaround Consulting</p>
-              <p class="fourth-text">
+            </figure>
+            <div class="popular-services__text-content">
+              <h3 class="popular-services__text-title">Turnaround Consulting</h3>
+              <p class="popular-services__text">
                 Companies dislike the term ‘turnaround consulting’ because it
                 represents failure. The truth is that turnaround consulting
                 represents success.
               </p>
             </div>
-          </div>
+          </article>
 
-          <div class="fourth-bottom-content">
-            <div class="image-content">
+          <article class="popular-services__bottom-content">
+            <figure class="popular-services__image-content">
               <img
                 src="image/seconds.jpg"
                 alt="architecture image"
                 class="fourth-img"
               />
-            </div>
-            <div class="fourth-text-content">
-              <p class="fourth-text-title">Bonds and commodities</p>
-              <p class="fourth-text">
+            </figure>
+            <div class="popular-services__text-content">
+              <h3 class="popular-services__text-title">Bonds and commodities</h3>
+              <p class="popular-services__text">
                 Companies dislike the term ‘turnaround consulting’ because it
                 represents failure. The truth is that turnaround consulting
                 represents success.
               </p>
             </div>
-          </div>
+          </article>
 
-          <div class="fourth-bottom-content">
-            <div class="image-content">
+          <article class="popular-services__bottom-content">
+            <figure class="popular-services__image-content">
               <img
                 src="image/arch.jpg"
                 alt="architecture image"
                 class="fourth-img"
               />
-            </div>
-            <div class="fourth-text-content">
-              <p class="fourth-text-title">Turnaround Consulting</p>
-              <p class="fourth-text">
+            </figure>
+            <div class="popular-services__text-content">
+              <h3 class="popular-services__text-title">Turnaround Consulting</h3>
+              <p class="popular-services__text">
                 Companies dislike the term ‘turnaround consulting’ because it
                 represents failure. The truth is that turnaround consulting
                 represents success.
               </p>
             </div>
-          </div>
+          </article>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="fifth-container">
-      <div class="fifth-content">
+    <section class="counts">
+      <div class="counts__content">
         <ul class="clearfix">
-          <li class="fifth-list">
-            <p class="fifth-title">7890</p>
-            <p class="fifth-text">coffe cups</p>
+          <li class="counts__list">
+            <p class="counts__title">7890</p>
+            <p class="counts__text">coffe cups</p>
           </li>
-          <li class="fifth-list">
-            <p class="fifth-title">1M</p>
-            <p class="fifth-text">subscribers</p>
+          <li class="counts__list">
+            <p class="counts__title">1M</p>
+            <p class="counts__text">subscribers</p>
           </li>
-          <li class="fifth-list">
-            <p class="fifth-title">1509</p>
-            <p class="fifth-text">customers</p>
+          <li class="counts__list">
+            <p class="counts__title">1509</p>
+            <p class="counts__text">customers</p>
           </li>
-          <li class="fifth-list">
-            <p class="fifth-title">5972</p>
-            <p class="fifth-text">purchase</p>
+          <li class="counts__list">
+            <p class="counts__title">5972</p>
+            <p class="counts__text">purchase</p>
           </li>
         </ul>
       </div>
-    </div>
+    </section>
 
-    <div class="second-container">
-      <div class="second-content clearfix">
+    <section class="second__container">
+      <div class="second__content clearfix">
         <div class="sixth-left">
-          <div class="second-line">
+          <div class="second__line">
             <img
               src="image/seconds.jpg"
               alt="architecture image"
-              class="second-img"
+              class="second__img"
             />
+
           </div>
         </div>
 
-        <div class="sixth-right">
-          <h2 class="second-left-heading">
+        <article class="sixth-right">
+          <h2 class="left-heading">
             Why are we best consulting office in london?
           </h2>
-          <p class="second-sec-text">
+          <p class="sec-text">
             Rapid solutions to the most complex business challenges with
             cooperative process-driven.
           </p>
-          <p class="second-third-text">
+          <p class="third-text">
             Integer blandit ultricies aliquam. Pellentesque quis dui varius,
             dapibus velit id, iaculis ipsum. Morbi ac eros feugiat, lacinia elit
             ut, elem turpis.Curabitur justo sapien, tempus sit amet rutrum eu,
@@ -326,14 +349,14 @@
             hendrerit eleifend tempor.
           </p>
           <a href="#" class="second-link">our services</a>
-        </div>
+        </article>
       </div>
-    </div>
+    </section>
 
-    <div class="seventh-container">
-      <div class="seventh-content">
+    <section class="quote">
+      <article class="quote__content">
         <img src="image/icons/quotation-icon.png" alt="quotation icon" />
-        <p class="seventh-text">
+        <p class="quote__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci modi
           laborum eaque ratione dignissimos quas doloribus, perferendis
           voluptate voluptatum consequatur, voluptates possimus eum eos
@@ -351,145 +374,143 @@
             alt="dash icon"
           />
         </p>
-      </div>
-    </div>
+      </article>
+    </section>
 
-    <div class="fourth-container">
-      <div class="fourth-content">
-        <div class="fourth-top-container">
-          <h2 class="second-left-heading">contact with us</h2>
-          <p class="second-sec-text">
+    <section class="popular-services">
+      <div class="popular-services__content">
+        <div class="popular-services__top">
+          <h2 class="left-heading">contact with us</h2>
+          <p class="sec-text">
             Rapid solutions to the most complex business challenges with
             cooperative process-driven.
           </p>
         </div>
-        <div class="fourth-bottom-container clearfix">
-          <div class="contactUs-bottom-content clearfix">
-            <div class="contactUs-image-content">
+        <div class="popular-services__bottom clearfix">
+          <div class="contactus__bottom clearfix">
+            <figure class="contactus__image-content">
               <img src="image/map.png" alt="map image" class="map-img" />
-            </div>
-            <div class="contactus-text-content">
-              <p class="map-text-title">Head quarter</p>
+            </figure>
+            <div class="contactus__text-content">
+              <h4 class="map-text-title">
+                <a href="#" class="map-text-a"> Head quarter </a>
+              </h4>
               <ul>
-                <li class="contactus-list">
-                  <div class="contactus-icon">
+                <li class="contactus__list">
+                  <figure class="contactus__icon">
                     <img src="image/icons/gps-icon.png" alt="gps icon" />
-                  </div>
-                  <div class="contactus-text">
-                    14 Mao Road, N1 4EP, Los Angelos, USA
+                  </figure>
+                  <div class="contactus__text">
+                    <p>14 Mao Road, N1 4EP, Los Angelos, USA</p>
                   </div>
                 </li>
-                <li class="contactus-list">
-                  <div class="contactus-icon clearfix">
+                <li class="contactus__list">
+                  <figure class="contactus__icon clearfix">
                     <img src="image/icons/phone-icon.png" alt="phone icon" />
-                  </div>
-                  <div class="contactus-text">+445 6231 411</div>
+                  </figure>
+                  <div class="contactus__text"><p>+445 6231 411</p></div>
                 </li>
-                <li class="contactus-list">
-                  <div class="contactus-icon clearfix">
+                <li class="contactus__list">
+                  <figure class="contactus__icon clearfix">
                     <img src="image/icons/mail-icon.png" alt="mail icon" />
-                  </div>
-                  <div class="contactus-text">+445 6231 411</div>
+                  </figure>
+                  <div class="contactus__text"><p>+445 6231 411</p></div>
                 </li>
               </ul>
             </div>
           </div>
 
-          <div class="contactUs-bottom-content clearfix">
-            <div class="contactUs-image-content">
+          <div class="contactus__bottom clearfix">
+            <figure class="contactus__image-content">
               <img src="image/map.png" alt="map image" class="map-img" />
-            </div>
-            <div class="contactus-text-content">
-              <p class="map-text-title">California office</p>
+            </figure>
+            <div class="contactus__text-content">
+              <h4 class="map-text-title">
+                <a href="#" class="map-text-a"> California office </a>
+              </h4>
               <ul>
-                <li class="contactus-list">
-                  <div class="contactus-icon">
+                <li class="contactus__list">
+                  <figure class="contactus__icon">
                     <img src="image/icons/gps-icon.png" alt="gps icon" />
-                  </div>
-                  <div class="contactus-text">
-                    14 Mao Road, N1 4EP, Los Angelos, USA
+                  </figure>
+                  <div class="contactus__text">
+                    <p>14 Mao Road, N1 4EP, Los Angelos, USA</p>
                   </div>
                 </li>
-                <li class="contactus-list">
-                  <div class="contactus-icon clearfix">
+                <li class="contactus__list">
+                  <figure class="contactus__icon clearfix">
                     <img src="image/icons/phone-icon.png" alt="phone icon" />
-                  </div>
-                  <div class="contactus-text">+445 6231 411</div>
+                  </figure>
+                  <div class="contactus__text"><p>+445 6231 411</p></div>
                 </li>
-                <li class="contactus-list">
-                  <div class="contactus-icon clearfix">
+                <li class="contactus__list">
+                  <figure class="contactus__icon clearfix">
                     <img src="image/icons/mail-icon.png" alt="mail icon" />
-                  </div>
-                  <div class="contactus-text">+445 6231 411</div>
+                  </figure>
+                  <div class="contactus__text"><p>+445 6231 411</p></div>
                 </li>
               </ul>
             </div>
           </div>
 
-          <div class="contactUs-bottom-content clearfix">
-            <div class="contactUs-image-content">
+          <div class="contactus__bottom clearfix">
+            <figure class="contactus__image-content">
               <img src="image/map.png" alt="map image" class="map-img" />
-            </div>
-            <div class="contactus-text-content">
-              <p class="map-text-title">London office</p>
+            </figure>
+            <div class="contactus__text-content">
+              <h4 class="map-text-title">
+                <a href="#" class="map-text-a"> London office</a>
+              </h4>
               <ul>
-                <li class="contactus-list">
-                  <div class="contactus-icon">
+                <li class="contactus__list">
+                  <figure class="contactus__icon">
                     <img src="image/icons/gps-icon.png" alt="gps icon" />
-                  </div>
-                  <div class="contactus-text">
-                    14 Mao Road, N1 4EP, Los Angelos, USA
+                  </figure>
+                  <div class="contactus__text">
+                    <p>14 Mao Road, N1 4EP, Los Angelos, USA</p>
                   </div>
                 </li>
-                <li class="contactus-list">
-                  <div class="contactus-icon clearfix">
+                <li class="contactus__list">
+                  <figure class="contactus__icon clearfix">
                     <img src="image/icons/phone-icon.png" alt="phone icon" />
-                  </div>
-                  <div class="contactus-text">+445 6231 411</div>
+                  </figure>
+                  <div class="contactus__text"><p>+445 6231 411</p></div>
                 </li>
-                <li class="contactus-list">
-                  <div class="contactus-icon clearfix">
+                <li class="contactus__list">
+                  <figure class="contactus__icon clearfix">
                     <img src="image/icons/mail-icon.png" alt="mail icon" />
-                  </div>
-                  <div class="contactus-text">+445 6231 411</div>
+                  </figure>
+                  <div class="contactus__text"><p>+445 6231 411</p></div>
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="third-footer-container clearfix">
-      <div class="third-footer-content">
+    <footer class="third__footer-container clearfix">
+      <div class="third__footer-content clearfix">
         <div class="social-icon-container">
-          <img
-            src="image/icons/facebook-icon.png"
-            class="footer-icon"
-            alt="facebook icon"
-          />
-          <img
-            src="image/icons/twitter-icon.png"
-            class="footer-icon"
-            alt="twitter icon"
-          />
-          <img
-            src="image/icons/google-icon.png"
-            class="footer-icon"
-            alt="google icon"
-          />
-          <img
-            src="image/icons/insta-icon.png"
-            class="footer-icon"
-            alt="instagram icon"
-          />
+          <a href="#" class="footer-icon">
+            <img src="image/icons/facebook-icon.png" alt="facebook icon" />
+          </a>
+          <a href="#" class="footer-icon">
+            <img src="image/icons/twitter-icon.png" alt="twitter icon" />
+          </a>
+          <a href="#" class="footer-icon">
+            <img src="image/icons/google-icon.png" alt="google icon" />
+          </a>
+          <a href="#" class="footer-icon">
+            <img src="image/icons/insta-icon.png" alt="instagram icon" />
+          </a>
         </div>
-        <div class="footer-text">
+        <div class="footer__text">
           Copyright &#169;
-          <span class="yellow">Symu.co</span>
+          <a href="#" class="footer__link">Symu.co</a>
         </div>
       </div>
-    </div>
+    </footer>
 
     <script>
       function myFunction() {
