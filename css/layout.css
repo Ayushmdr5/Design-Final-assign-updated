@@ -9,7 +9,6 @@
 }
 .nav {
   width: 100%;
-  /* background-color: red; */
 }
 .nav__left {
   float: left;
@@ -86,11 +85,9 @@
   width: 100%;
   padding: 0px 4%;
   margin: 80px 0;
-  /* background-color: wheat; */
 }
 .second__right {
   margin: 50px 0;
-  /* display: none; */
 }
 
 /* FOR SECOND CONTENT */
@@ -164,7 +161,6 @@
   width: 100%;
   margin-top: 10px;
 }
-
 /* FOURTH CONTENT END  */
 
 /* FIFTH CONTENT  */
@@ -179,7 +175,6 @@
 }
 .counts__list{
   width: 100%;
-  /* background-color: chocolate; */
   text-align: center;
   padding: 40px 0;
   color: white;
@@ -210,7 +205,6 @@
 .second__img {
   width: 300px;
 }
-
   /* FOR SIXTH CONTENT END   */
 
   
@@ -288,7 +282,6 @@
     padding: 0 10px;
     font-size: 0.75em;
     display: block;
-    /* font-weight: 500; */
   }
   .desk-country-icon {
     float: left;
@@ -404,11 +397,9 @@
     display: block;
     width: 42%;
     margin: 0;
-    /* background-color: red; */
   }
   .second__img {
     width: 400px;
-    /* height: 260px; */
     top: 72px;
     right: -99px;
     position: absolute;
@@ -445,7 +436,6 @@
   .popular-services__bottom {
     max-width: 1025px;
     margin: 2% auto;
-    /* padding: 0 5% 0 4%; */
   }
   .popular-services__bottom-content {
     float: left;
@@ -477,7 +467,6 @@
     display: block;
     width: 42%;
     margin: 0;
-    /* background-color: red; */
   }
   .quote__content{
     padding: 100px 0;
